@@ -3,14 +3,14 @@ html {
 }
 
 body {border: solid black 2px;
-    background: lightgrey;
+    background: #E6E6FA;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
-    font-family: "Helvetica Neue", Tahoma, Arial, sans-serif;
-    font-size: 18px;
+    font-family: "Helvetica Neue", Tahoma, sans-serif;
+    font-size: 20px;
     line-height: 1.5;
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 850px;
     padding: 2em 2em 2em;
 }
 
@@ -28,11 +28,5 @@ button {font-size: 55px;color: #2F4F4F; background-color: #FFF0F5; border: 2px s
 .T2 {font-size: 60px}
 
 h2 {
-    margin-top: 1.3em;
-}
-
-input:focus{
-border: 3px solid black;
-box-shadow: 1px 1px 2px 0 blue;
-; 
+    margin-top: 1em;
 }
