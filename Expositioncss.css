@@ -6,22 +6,19 @@ body {border: solid black 0.5px;
     background: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
     color: black;
-    font-family: 'Montserrat';
-    font-size: 20px;
-    line-height: 150px;
-    max-width: 1000px;
-    max-height: 0px
-    padding: 3em 3em 3em;
-    width: 200%
+    width: 965px;
+    height: 1720px; 
+    overflow: visible;
+    background-image: url(background123.jpg);
     
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 35px;
-    font-weight: 9000;
-    line-height: 1.2;
+    font-size: 50px;
+    font-weight: 100px;
+    line-height: 1.07;
     margin: 32px;
     
 }
@@ -29,19 +26,23 @@ input {line-height: 1.4; padding-left: 10px; font-family: 'Montserrat';font-weig
 
 button {font-size: 60px; color: black; background-color: white; border: 1px solid black; border-radius: 15px;box-shadow: 0 0 18px rgba(0,0,0,0.4); line-height: ; margin: 32px; margin-right: 250px;padding: 8px}
 
-.T2 {font-size: 55px; font-weight: 900; background-color: bisque; border-radius: 15px; color: black; padding-left: 13px; border: 3px solid black; box-shadow: 0 0 18px rgba(0,0,0,0.4);margin: 25px; padding-right: 0px; margin-right: 0px;margin-top: 0px;width: 300px;margin-left: 30px}
+.T2rus,.T2eng {font-size: 60px; font-weight: 900; background-color: bisque; border-radius: 15px; color: black; padding-left: 13px; border: 3px solid black; box-shadow: 0 0 18px rgba(0,0,0,0.4);margin: 26px; padding-right: 0px; margin-right: 0px;margin-top: 0px;width: 300px;margin-left: 30px;margin-bottom: 25px}
+
+
 
 input:focus {border: 1px solid black; ; border-radius: 15px; box-shadow: 0 0 30px rgba(0,0,0,1.5);}
 button:focus {border: 1px solid black; ; border-radius: 15px; box-shadow: 0 0 10px rgba(0,0,0,1.5); }
 
-.buttonmin,.buttonsec {font-size: 50px; color: black; background-color: white; border: 1px solid black; border-radius: 15px;box-shadow: 0 0 18px rgba(0,0,0,0.4); margin: 0px; margin-right: 0px; padding-bottom: 6px; padding-top: 14px; padding-left: 10px; padding-right: 10px}
-
-.menu {margin-top: 20px; margin-bottom: 100px; padding-bottom: 5px; padding-top: 5px; padding-left: 10px; padding-right: 55%}
 
 .part2desc, .part1desc {margin-bottom: 80px;}
 
 .S1desc,.T1desc,.F1desc,.S2desc,.F2desc,.resultdesc {margin-bottom: 15px}
 
-.backtoprog {margin-top: 20px; margin-bottom: 100px; padding-bottom: 5px; padding-top: 5px; padding-left: 0px; padding-right: 10px;width: 931px;}
+.tomenurus,.tomenurus:focus,.toprogramrus,.toprogrameng,.toprogramrus:focus,.tomenueng,.tomenueng:focus { width: 945px; height: 100px; margin: 10px}
 
-.langbutton {margin-left: px}
+.buttonnexteng,.buttonnextrus,.buttonbackrus,.buttonbackeng,.buttonnexteng:focus,.buttonnextrus:focus,.buttonbackrus:focus,.buttonbackeng:focus { width: 945px; height: 100px; margin: 10px}
+
+.specs {overflow: scroll; height: 1300px;}
+.specsdesc {font-size: 40px}
+
+.englangbuttontoeng,.englangbuttontorus,.ruslangbuttontorus,.ruslangbuttontoeng, .englangbuttontoeng:focus,.englangbuttontorus:focus,.ruslangbuttontorus:focus,.ruslangbuttontoeng:focus {width: 945px; height: 100px; margin: 10px;margin-bottom: 30px}
