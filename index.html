@@ -13,56 +13,155 @@
         
     </head>
     <body>
-        
-     
-        
-               
-        <a href=info.html><button class=menu >Опции</button></a>
+        <div class=rusprog> 
+            <button class=tomenurus>Настройки</button>
+            <div class=page1rus>
     
         <h1 class=part1desc><b>Шаг 1. Вводные данные известной экспозиции</b></h1>
         
         <h2 class=S1desc><b>Радиационная толщина металла (мм)</b></h2>
         
-        <input type='number' class='S1'>
+        <input type='number' class='S1rus'>
         
         <h2 class=F1desc><b>Фокусное расстояние (мм)</b></h2>
         
-            <input type='number' class='F1' >
+            <input type='number' class='F1rus' >
         
         
          <h2 class=T1desc><b>Время экспозиции (сек/импульсы)</b></h2>
         
-            <input type='number' class='T1' >
-        
+            <input type='number' class='T1rus' >
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br><br><br><br><br><br><br><br>
+                
+                
+                <button class="buttonnextrus">Далее</button>
+            </div>
+            <div class=page2rus hidden=true>
 
-        <h1 class=part2desc hidden=true><b>Шаг 2. Вводные данные для новой экспозиции</b></h1>
+        <h1 class=part2desc><b>Шаг 2. Вводные данные для новой экспозиции</b></h1>
         
-            <h2 hidden=true class=S2desc><b>Радиационная толщина металла (мм)</b></h2>
+            <h2 class=S2desc><b>Радиационная толщина металла (мм)</b></h2>
         
-            <input type='number' class='S2' hidden=true >
+            <input type='number' class='S2rus'>
         
-            <h2 hidden=true class=F2desc><b>Фокусное расстояние (мм)</b></h2>
+            <h2 class=F2desc><b>Фокусное расстояние (мм)</b></h2>
         
-            <input type='number' class='F2' hidden=true >
+            <input type='number' class='F2rus'>
         
-        <h1 hidden=true><b>Итог</b></h1>
+        <button class="buttonresultrus">Рассчитать</button>
        
         
-        <h2 hidden=true class=resultdesc><b>Время экспозиции (сек/импульсы)</b></h2>
-        <input class='T2' hidden=true readonly>
+        <h2 class=resultdesc><b>Время экспозиции (сек/импульсы)</b></h2>
+        <input class='T2rus'readonly>
         
         
         
         
-        <button class="buttonmin" hidden=true>Перевести в минуты</button>
+        <button class="buttonminrus">Перевести в минуты</button>
         
-        <button class="buttonsec" hidden=true>Перевести в секунды</button>
+        <button class="buttonsecrus" hidden=true>Перевести в секунды</button>
+                
+                <button class="buttonbackrus">Назад</button>
+            </div>
         
         
-        <button class="buttonresult" hidden=true>Рассчитать</button>
+</div>
         
-        <button class="buttonnext">Далее</button>
-        <button class="buttonback" hidden=true>Назад</button>
-        <script src="file.js"></script>
-		    </body>
+<div class=rusinfo hidden=true>
+<button class=toprogramrus >Вернуться к программе</button>
+        <h2>Выбор языка</h2>
+        <button class=ruslangbuttontoeng>English</button>
+            <button class=ruslangbuttontorus hidden=true>Русский</button>
+        <div class=specs>
+        <h2 class=specsdesc>Описание программы</h2>
+        <h2 class=specsdesc>1. Программа предназначена для расчета времени экспозиции на основе уже имеющихся данных об успешной просветке.</h2>
+        <h2 class=specsdesc>   
+        2. За основу взята логика зависимостей времени экспозиции от радиационной толщины и фокусного расстояния. В данном случае принята прямая зависимость времени экспозиции от изменения радиационной толщины и квадратичная зависимость от изменения фокусного расстояния.</h2>
+        <h2 class=specsdesc>3. Данная программа подойдет для случаев, когда неразрушающий контроль производится на одинаковом сплаве с помощью одинаковой пленки. </h2>
+            <h2 class=specsdesc>4. Пример применения: просветка детали №1 из стали 09Г2С происходила с использованием пленки AGFA F8. Опытным путем было подобрано время экспозиции. В ситуации, когда деталь №2 будет состоять из этой же стали, но будет иметь иные характеристики (иная радиацонная толщина), а просветка будет происходить на пленку AGFA F8, то применение программы можно назвать допустимым.</h2>
+            <h2 class=specsdesc>5. Радиационная толщина - это количество материала стали в миллиметрах, которое находится между пленкой и источником излучения. Следовательно, если рассматривать трубу диаметром 219мм и толщиной 4мм, то при просветке через 2 стенки радиационная толщина будет равна 8мм. </h2>
+    </div>
+    </div>           
+            
+    
+        
+        <div class=engprog hidden=true>
+            <button class=tomenueng >Settings</button>
+     <div class=page1eng>
+        <h1 class=part1desc><b>Step 1: Input of a Known Exposure</b></h1>
+        
+        <h2 class=S1desc><b>Radiation metal thickness (mm)</b></h2>
+        
+        <input type='number' class='S1eng'>
+        
+        <h2 class=F1desc><b>Focal length (mm)</b></h2>
+        
+            <input type='number' class='F1eng' >
+        
+        
+         <h2 class=T1desc><b>Exposure time (sec / impulses)</b></h2>
+        
+            <input type='number' class='T1eng' >
+         <br><br><br><br><br><br><br><br>
+         <br><br><br><br><br><br><br>
+         <button class='buttonnexteng'>Onwards</button>
+            </div>
+<div class=page2eng hidden=true>
+        <h1 class=part2desc><b>Step 2. Data for a new exposure</b></h1>
+        
+            <h2 class=S2desc><b>Radiation metal thickness (mm)</b></h2>
+        
+            <input type='number' class='S2eng'>
+        
+            <h2 class=F2desc><b>Focal length (mm)</b></h2>
+        
+            <input type='number' class='F2eng' >
+        
+        <button class="buttonresulteng">Calculate</button>
+       
+        
+        <h2 class=resultdesc><b>Exposure time (sec / impulses)</b></h2>
+        <input class='T2eng'readonly>
+        
+        
+            
+        
+        <button class="buttonmineng">Convert to minutes</button>
+        
+        <button class="buttonseceng" hidden=true>Convert to seconds</button>
+    <br>
+    <button class="buttonbackeng">Backward</button>
+        </div>
+             </div>   
+            
+            
+     <div class=enginfo hidden=true>       
+           <button class=toprogrameng>Back to the program
+</button>
+        <h2>Language selection</h2>
+      <button class=englangbuttontoeng hidden=true>English</button>
+    <button class=englangbuttontorus>
+Русский</button>
+        <div class=specs>
+        <h2 class=specsdesc>Program description</h2>
+        <h2 class=specsdesc>1. The program is designed to calculate the exposure time based on the already available data on the successful illumination.</h2>
+         <h2 class=specsdesc>   
+        2. The logic of dependences of exposure time on radiation thickness and focal length is taken as a basis. In this case, the direct dependence of the exposure time on the change in the radiation thickness and the quadratic dependence on the change in the focal length are accepted.</h2>
+        <h2 class=specsdesc>3. This program is suitable for cases when non-destructive testing is performed on the same alloy using the same film.
+</h2> 
+            <h2 class=specsdesc>4. Application example: the gleam of part No. 1 made of 09G2S steel was carried out using AGFA F8 film. The exposure time was selected empirically. In a situation where part No. 2 will consist of the same steel, but will have different characteristics (different radiation thickness), and the clearance will occur on the AGFA F8 film, then the application of the program can be called permissible.</h2>
+        <h2 class=specsdesc>5. Radiation thickness is the amount of steel material in millimeters between the film and the radiation source. Therefore, if we consider a pipe with a diameter of 219 mm and a thickness of 4 mm, then with a clearance through 2 walls, the radiation thickness will be 8 mm.</h2> 
+         </div>
+             </div>  
+            
+            
+            <script src="file.js"></script>
+            </body>
 </html>
