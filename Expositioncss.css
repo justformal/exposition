@@ -4,13 +4,14 @@ html {
 
 body {border: solid black 0.5px;
     background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    box-shadow: black;
     color: black;
     width: 965px;
-    height: 1720px; 
+    height: 1600px; 
     overflow: visible;
     background-image: url(background123.jpg);
-    
+    margin: 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,18 +21,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 100px;
     line-height: 1.07;
     margin: 32px;
-    
 }
-input {line-height: 1.4; padding-left: 10px; font-family: 'Montserrat';font-weight: 900; font-size: 55px; border: 1px solid black; border-radius: 15px; box-shadow: 0 0 18px rgba(0,0,0,0.5); margin: 32px;margin-top: 0px;margin-bottom: 90px;}
+input {line-height: 1.4; padding-left: 10px; font-family: 'Montserrat';font-weight: 900; font-size: 55px; border: 1px solid black; border-radius: 15px; box-shadow: 0 0 18px rgba(0,0,0,0.5); margin: 32px;margin-top: 0px;margin-bottom: 90px; background-color:transparent}
 
-button {font-size: 60px; color: black; background-color: white; border: 1px solid black; border-radius: 15px;box-shadow: 0 0 18px rgba(0,0,0,0.4); line-height: ; margin: 32px; margin-right: 250px;padding: 8px}
+button {font-size: 60px; color: black; background-color: transparent; border: 1px solid black; border-radius: 15px;box-shadow: 0 0 18px rgba(0,0,0,0.4); line-height: ; margin: 32px; margin-right: 250px;padding: 8px; }
 
 .T2rus,.T2eng {font-size: 60px; font-weight: 900; background-color: bisque; border-radius: 15px; color: black; padding-left: 13px; border: 3px solid black; box-shadow: 0 0 18px rgba(0,0,0,0.4);margin: 26px; padding-right: 0px; margin-right: 0px;margin-top: 0px;width: 300px;margin-left: 30px;margin-bottom: 25px}
-
-
-
-input:focus {border: 1px solid black; ; border-radius: 15px; box-shadow: 0 0 30px rgba(0,0,0,1.5);}
-button:focus {border: 1px solid black; ; border-radius: 15px; box-shadow: 0 0 10px rgba(0,0,0,1.5); }
 
 
 .part2desc, .part1desc {margin-bottom: 80px;}
@@ -42,7 +37,9 @@ button:focus {border: 1px solid black; ; border-radius: 15px; box-shadow: 0 0 10
 
 .buttonnexteng,.buttonnextrus,.buttonbackrus,.buttonbackeng,.buttonnexteng:focus,.buttonnextrus:focus,.buttonbackrus:focus,.buttonbackeng:focus { width: 945px; height: 100px; margin: 10px}
 
-.specs {overflow: scroll; height: 1300px;}
-.specsdesc {font-size: 40px}
+.specs {overflow: scroll; height: 1190px;}
+.specsdesc {font-size: 35px}
 
 .englangbuttontoeng,.englangbuttontorus,.ruslangbuttontorus,.ruslangbuttontoeng, .englangbuttontoeng:focus,.englangbuttontorus:focus,.ruslangbuttontorus:focus,.ruslangbuttontoeng:focus {width: 945px; height: 100px; margin: 10px;margin-bottom: 30px}
+
+.contentpage {height: 1326px;}
