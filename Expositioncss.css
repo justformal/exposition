@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 input {line-height: 1.4; padding-left: 10px; font-family: 'Montserrat';font-weight: 900; font-size: 55px; border: 1px solid black; border-radius: 15px; box-shadow: 0 0 18px rgba(0,0,0,0.5); margin: 32px;margin-top: 0px;margin-bottom: 90px; background-color:transparent}
 
-button {font-size: 60px; color: black; background-color: transparent; border: 1px solid black; border-radius: 15px;box-shadow: 0 0 18px rgba(0,0,0,0.4); line-height: ; margin: 32px; margin-right: 250px;padding: 8px; }
+button {font-size: 60px; color: black; background-color: transparent; border: 0.01px solid black; border-radius: 15px;box-shadow: 0 0 18px rgba(0,0,0,0.4); line-height: ; margin: 32px; margin-right: 250px;padding: 8px; }
 
 .T2rus,.T2eng {font-size: 60px; font-weight: 900; background-color: bisque; border-radius: 15px; color: black; padding-left: 13px; border: 3px solid black; box-shadow: 0 0 18px rgba(0,0,0,0.4);margin: 26px; padding-right: 0px; margin-right: 0px;margin-top: 0px;width: 300px;margin-left: 30px;margin-bottom: 25px}
 
@@ -37,9 +37,10 @@ button {font-size: 60px; color: black; background-color: transparent; border: 1p
 
 .buttonnexteng,.buttonnextrus,.buttonbackrus,.buttonbackeng,.buttonnexteng:focus,.buttonnextrus:focus,.buttonbackrus:focus,.buttonbackeng:focus { width: 945px; height: 100px; margin: 10px}
 
-.specs {overflow: scroll; height: 1190px;}
+.specs {overflow: scroll; height: 1170px;}
 .specsdesc {font-size: 35px}
 
 .englangbuttontoeng,.englangbuttontorus,.ruslangbuttontorus,.ruslangbuttontoeng, .englangbuttontoeng:focus,.englangbuttontorus:focus,.ruslangbuttontorus:focus,.ruslangbuttontoeng:focus {width: 945px; height: 100px; margin: 10px;margin-bottom: 30px}
 
 .contentpage {height: 1326px;}
+button:focus {box-shadow: 20px; border: 300px;border-color:black};
